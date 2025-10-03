@@ -1,4 +1,4 @@
-26510774815328065
+26514302769929533
 3rd package
 1N4739ATR
 ZENER D 9.1V
@@ -188,13 +188,6 @@ Integrated Circuit
 0
 3
 3
-3rd package
-MES104J2A-7-50R0
-100NF 100V
-
-0
-2
-2
 3rd package
 MKP20106J2EAC461625
 10UF 250V
@@ -105437,6 +105430,27 @@ cus_resistor
 RSF5SSJT-73-150R_Vertical
 金属膜电阻 150Ω ±5% 5W
 
+0
+2
+2
+cus_resistor
+R_1206
+SMD 1206
+resistor
+0
+2
+2
+cus_resistor
+R_2512
+SMD 2512
+resistor
+0
+2
+2
+cus_resistor
+R_MELF_0207
+MELF 0207
+MELF Resistor
 0
 2
 2

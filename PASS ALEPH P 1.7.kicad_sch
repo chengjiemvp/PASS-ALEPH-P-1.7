@@ -5305,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 34.29 96.52 0)
 			(effects
 				(font
@@ -6066,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 212.09 97.79 0)
 			(effects
 				(font
@@ -6340,7 +6340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 208.28 68.58 0)
 			(effects
 				(font
@@ -6959,7 +6959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33.2"
+		(property "Value" "33"
 			(at 105.41 144.7799 0)
 			(effects
 				(font
@@ -6968,7 +6968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "generic package:R 2512"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 102.87 143.51 0)
 			(effects
 				(font
@@ -7540,7 +7540,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 143.51 88.9 0)
 			(effects
 				(font
@@ -8236,7 +8236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R 2512"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -8722,7 +8722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 40.64 68.58 0)
 			(effects
 				(font
@@ -9205,7 +9205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.1"
+		(property "Value" "22"
 			(at 151.13 52.0699 0)
 			(effects
 				(font
@@ -9214,7 +9214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "generic package:R 2512"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 148.59 50.8 0)
 			(effects
 				(font
@@ -10331,7 +10331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.1"
+		(property "Value" "22"
 			(at 105.41 52.0699 0)
 			(effects
 				(font
@@ -10340,7 +10340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "generic package:R 2512"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 102.87 50.8 0)
 			(effects
 				(font
@@ -10402,7 +10402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33.2"
+		(property "Value" "33"
 			(at 151.13 144.7799 0)
 			(effects
 				(font
@@ -10411,7 +10411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "generic package:R 2512"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 148.59 143.51 0)
 			(effects
 				(font
@@ -10482,7 +10482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 104.14 88.9 0)
 			(effects
 				(font
