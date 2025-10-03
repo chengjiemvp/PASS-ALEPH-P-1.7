@@ -9,7 +9,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN2"
+			(property "Reference" "CN3"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "connectors:3线焊盘"
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,7 +69,7 @@
 				(pin passive line
 					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "IN+"
+					(name "OUT+"
 						(effects
 							(font
 								(size 1.25 1.25)
@@ -105,7 +105,7 @@
 				(pin passive line
 					(at 8.89 -3.81 180)
 					(length 2.54)
-					(name "IN-"
+					(name "OUT-"
 						(effects
 							(font
 								(size 1.25 1.25)
@@ -123,7 +123,218 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "connectors:2线焊盘"
+		(symbol "BCP56-16,115_1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 6.604 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "BCP56-16,115"
+				(at 6.604 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "cus_transistor:BCP56-16,115"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN SOT-223"
+				(at 11.43 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BCP56-16,115_1_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -0.635 -1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BCP56-16,115_1_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_connector:2线焊盘"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -223,11 +434,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "connectors:3线焊盘"
+		(symbol "cus_connector:3线焊盘"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN3"
+			(property "Reference" "CN2"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -243,7 +454,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "connectors:3线焊盘"
 				(at 0 0 0)
 				(effects
 					(font
@@ -287,7 +498,7 @@
 				(pin passive line
 					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "OUT+"
+					(name "IN+"
 						(effects
 							(font
 								(size 1.25 1.25)
@@ -323,7 +534,7 @@
 				(pin passive line
 					(at 8.89 -3.81 180)
 					(length 2.54)
-					(name "OUT-"
+					(name "IN-"
 						(effects
 							(font
 								(size 1.25 1.25)
@@ -334,6 +545,1092 @@
 						(effects
 							(font
 								(size 1.25 1.25)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_mosfet:IRF610PBF"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.334 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRF610PBF"
+				(at 5.334 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1个N沟道 耐压:200V 电流:3.3A"
+				(at 5.334 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "IRF610PBF_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRF610PBF_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_mosfet:IRF9610PBF"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 4.064 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRF9610PBF"
+				(at 4.064 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1个P沟道 耐压:200V 电流:1.8A"
+				(at 4.064 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "IRF9610PBF_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.905) (xy -1.016 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRF9610PBF_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_transistor:BCP53-16,115"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.842 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "BCP53-16,115"
+				(at 5.842 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "cus_transistor:BCP53-16,115"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "PNP SOT-223"
+				(at 10.668 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BCP53-16,115_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -0.635 -1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.778) (xy 0.508 -2.286) (xy 0 -1.27) (xy 1.016 -1.778) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BCP53-16,115_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_transistor:BCP56-16,115"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 6.604 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "BCP56-16,115"
+				(at 6.604 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "cus_transistor:BCP56-16,115"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN SOT-223"
+				(at 11.43 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BCP56-16,115_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -0.635 -1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BCP56-16,115_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_zener:1SMB5924BT3G"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Z"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1SMB5924BT3G"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10.16 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMB 9.1V"
+				(at 13.716 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1SMB5924BT3G_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 3.048 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.08 1.27) (xy 2.54 0) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "1SMB5924BT3G_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -800,562 +2097,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "generic components:Mosfet_N_Channel"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.334 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Mosfet_N_Channel"
-				(at 5.334 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N沟道"
-				(at 5.334 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "Mosfet_N_Channel_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Mosfet_N_Channel_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "generic components:Mosfet_P_Channel"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 4.064 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Mosfet_P_Channel"
-				(at 4.064 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P沟道"
-				(at 4.064 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "Mosfet_P_Channel_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.905) (xy -1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -0.508 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.286) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Mosfet_P_Channel_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "generic components:R"
 			(pin_numbers
 				(hide yes)
@@ -1445,530 +2186,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "generic components:Transistor_NPN"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 4.064 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Transistor"
-				(at 4.064 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Transistor_NPN"
-				(at 4.064 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "Transistor_NPN_0_1"
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.905) (xy -0.635 -1.905) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.27) (xy 1.524 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.27) (xy 1.524 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Transistor_NPN_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "generic components:Transistor_PNP"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 3.81 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Transistor_PNP"
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "PNP"
-				(at 3.81 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "Transistor_PNP_0_1"
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.905) (xy -0.635 -1.905) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.778) (xy 0.508 -2.286) (xy 0 -1.27) (xy 1.016 -1.778) (xy 1.016 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Transistor_PNP_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "generic components:Zener_Diode"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "ZD"
-				(at 0 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener Diode"
-				(at 0 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "Zener_Diode_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Zener_Diode_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2087,6 +2304,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "装0欧姆"
 		(exclude_from_sim no)
@@ -2153,10 +2471,22 @@
 		(uuid "1159cf8a-98d7-4c1b-94c8-06d73f8812c5")
 	)
 	(junction
+		(at 111.76 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1758c1e2-c8f7-454d-a3e6-343be16ae256")
+	)
+	(junction
 		(at 102.87 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22afc542-7c53-4dec-accb-0e7d6fb082ba")
+	)
+	(junction
+		(at 40.64 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "271cfe41-eca3-4680-8735-3f4a97ad16f0")
 	)
 	(junction
 		(at 114.3 35.56)
@@ -2369,16 +2699,22 @@
 		(uuid "91b773a0-ef83-4921-94f7-063cafb499eb")
 	)
 	(junction
+		(at 135.89 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b121577-ce5b-4482-a578-00ed963820a9")
+	)
+	(junction
 		(at 228.6 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fbb6fec-5bd2-4890-b97c-acdef03e8338")
 	)
 	(junction
-		(at 135.89 95.25)
+		(at 123.19 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a343159a-edc7-4269-8743-a7f15e943654")
+		(uuid "a18005aa-6d73-4dc4-afaf-d5e4d9dd24a2")
 	)
 	(junction
 		(at 195.58 76.2)
@@ -2439,12 +2775,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5d8e0b6-fd5a-4cd3-b966-c312c5204183")
-	)
-	(junction
-		(at 111.76 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d627a021-d917-4c18-9905-734a3a2821bf")
 	)
 	(junction
 		(at 102.87 59.69)
@@ -2556,6 +2886,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05aaa3fc-c3fb-4de6-8641-5d3a7025c398")
+	)
+	(wire
+		(pts
 			(xy 167.64 106.68) (xy 171.45 106.68)
 		)
 		(stroke
@@ -2573,16 +2913,6 @@
 			(type default)
 		)
 		(uuid "06f78858-96e8-4f2d-84c6-7ba664b44dca")
-	)
-	(wire
-		(pts
-			(xy 63.5 105.41) (xy 63.5 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07af101a-1e78-4969-b575-3e141b5f0d57")
 	)
 	(wire
 		(pts
@@ -2733,16 +3063,6 @@
 			(type default)
 		)
 		(uuid "145fb75d-6d3e-4887-b04d-22dd69ebda0d")
-	)
-	(wire
-		(pts
-			(xy 186.69 106.68) (xy 186.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b8a4f8-8810-4fb3-b659-b5c0ba41e612")
 	)
 	(wire
 		(pts
@@ -3026,16 +3346,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 101.6) (xy 135.89 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36699378-85ed-4fdc-b47c-3972dd778c64")
-	)
-	(wire
-		(pts
 			(xy 186.69 97.79) (xy 186.69 99.06)
 		)
 		(stroke
@@ -3266,16 +3576,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 95.25) (xy 135.89 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52de510f-7006-49cf-ac50-c2aaad84d644")
-	)
-	(wire
-		(pts
 			(xy 148.59 59.69) (xy 161.29 59.69)
 		)
 		(stroke
@@ -3293,6 +3593,16 @@
 			(type default)
 		)
 		(uuid "558d6aa8-5383-4932-8bda-51b5670b99bd")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56297aff-a1b9-459c-96de-494068dc41c7")
 	)
 	(wire
 		(pts
@@ -3323,16 +3633,6 @@
 			(type default)
 		)
 		(uuid "5cd2c001-f0ad-4328-b8d8-8c85d825f172")
-	)
-	(wire
-		(pts
-			(xy 111.76 95.25) (xy 111.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e23c898-8f26-498f-9ee5-90a735a019af")
 	)
 	(wire
 		(pts
@@ -3373,6 +3673,16 @@
 			(type default)
 		)
 		(uuid "628905e6-61ad-4c23-b21a-04be1d085c32")
+	)
+	(wire
+		(pts
+			(xy 63.5 105.41) (xy 63.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b61887-3a18-437a-bbfa-2c06f806900a")
 	)
 	(wire
 		(pts
@@ -3536,23 +3846,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 185.42) (xy 41.91 185.42)
+			(xy 36.83 185.42) (xy 40.64 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "784067d9-e3b5-492f-9028-3a3de5f8c42a")
-	)
-	(wire
-		(pts
-			(xy 119.38 102.87) (xy 119.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79099e67-8899-4477-816c-aec35e91a418")
 	)
 	(wire
 		(pts
@@ -3613,6 +3913,26 @@
 			(type default)
 		)
 		(uuid "8c7d9f8b-2897-4d03-9166-c6f1abdb84c7")
+	)
+	(wire
+		(pts
+			(xy 186.69 106.68) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfbba29-9f6b-4169-8b5b-755efe722758")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 135.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e533611-be4a-4bd0-8a7d-12fc79c8419f")
 	)
 	(wire
 		(pts
@@ -3806,16 +4126,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 101.6) (xy 129.54 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac659d1-269c-4879-a742-5a4f2e1344b8")
-	)
-	(wire
-		(pts
 			(xy 163.83 90.17) (xy 172.72 90.17)
 		)
 		(stroke
@@ -3843,16 +4153,6 @@
 			(type default)
 		)
 		(uuid "af8832da-c2b7-4b85-b153-572bef1bbe54")
-	)
-	(wire
-		(pts
-			(xy 119.38 101.6) (xy 111.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e8dc45-9bdd-4e6b-ba1d-6f09b47d64fe")
 	)
 	(wire
 		(pts
@@ -4006,6 +4306,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 185.42) (xy 41.91 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be44d8b8-d832-443a-9891-30aba2fb1d73")
+	)
+	(wire
+		(pts
 			(xy 20.32 128.27) (xy 69.85 128.27)
 		)
 		(stroke
@@ -4083,6 +4393,16 @@
 			(type default)
 		)
 		(uuid "c67a7f97-9a43-4df5-9f6f-012c89ec802d")
+	)
+	(wire
+		(pts
+			(xy 40.64 186.69) (xy 40.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67ffcc0-a94d-42c7-a1c0-5d191d3895f0")
 	)
 	(wire
 		(pts
@@ -4745,7 +5065,7 @@
 		(uuid "dd295251-d27e-4b8a-9501-8ae8d51fdd15")
 	)
 	(symbol
-		(lib_id "generic components:Transistor_PNP")
+		(lib_id "cus_transistor:BCP53-16,115")
 		(at 177.8 59.69 0)
 		(mirror x)
 		(unit 1)
@@ -4772,33 +5092,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:BCX53-16,115"
-			(at 194.31 -35.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 -135.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PNP"
-			(at 181.61 57.912 0)
+		(property "Footprint" "cus_transistor:BCP53-16,115"
+			(at 199.39 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP SOT-223"
+			(at 188.468 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4821,8 +5140,7 @@
 		)
 	)
 	(symbol
-		(lib_name "3线焊盘_1")
-		(lib_id "connectors:3线焊盘")
+		(lib_id "cus_connector:3线焊盘")
 		(at 57.15 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4979,7 +5297,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10K"
 			(at 34.29 92.71 90)
 			(effects
 				(font
@@ -5031,80 +5349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Transistor_NPN")
-		(at 71.12 137.16 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0757ec16-a742-408c-8c96-b2d64ca78b11")
-		(property "Reference" "Q1"
-			(at 67.31 138.4301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BCX56-16,115"
-			(at 67.31 135.8901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "3rd package:BCX56-16,115"
-			(at 71.12 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Transistor_NPN"
-			(at 67.056 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d195ab27-d10a-4302-96cc-a9fa457fe337")
-		)
-		(pin "1"
-			(uuid "e36e203f-14f3-4580-b989-ca2858de1be4")
-		)
-		(pin "3"
-			(uuid "0f6b9edd-807c-4684-b339-c58b89a3fa96")
-		)
-		(instances
-			(project "PASS ALEPH P 1.7"
-				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "generic components:R")
 		(at 111.76 116.84 90)
 		(unit 1)
@@ -5130,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 111.76 116.84 0)
 			(effects
 				(font
@@ -5198,6 +5442,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5303,79 +5548,6 @@
 			(project "PASS ALEPH P 1.7"
 				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "generic components:Transistor_NPN")
-		(at 182.88 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1214d8b4-c56c-43e8-861f-e92efdc49ad6")
-		(property "Reference" "Q10"
-			(at 186.69 138.4301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BCX56-16,115"
-			(at 186.69 135.8901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "3rd package:BCX56-16,115"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Transistor_NPN"
-			(at 186.944 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efdeea00-31e4-4459-ba3a-f1b2eea154a9")
-		)
-		(pin "1"
-			(uuid "e24cc602-1ca6-49d9-9a7d-1f56f3ce89e9")
-		)
-		(pin "3"
-			(uuid "c65ddaba-0ba6-4a77-93f9-70446d489e35")
-		)
-		(instances
-			(project "PASS ALEPH P 1.7"
-				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
-					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -5548,6 +5720,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5614,6 +5787,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5752,7 +5926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 49.53 76.2 0)
 			(effects
 				(font
@@ -5884,7 +6058,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10K"
 			(at 212.09 93.98 90)
 			(effects
 				(font
@@ -6012,10 +6186,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "26c20c68-3215-4d07-9fe8-f6120989a032")
 		(property "Reference" "C6"
-			(at 91.44 82.55 0)
+			(at 94.488 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +6196,7 @@
 			)
 		)
 		(property "Value" "10UF"
-			(at 91.44 85.09 0)
+			(at 94.488 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,10 +6254,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "26e71adb-cf63-4aba-88bf-7ba0458b653f")
 		(property "Reference" "R28"
-			(at 165.1 62.23 90)
+			(at 165.1 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6264,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 165.1 64.77 90)
+			(at 165.1 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,10 +6391,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c223579-ecbc-4139-bdb9-f77f8669c5d4")
 		(property "Reference" "C11"
-			(at 160.02 68.58 0)
+			(at 163.576 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6401,7 @@
 			)
 		)
 		(property "Value" "10UF"
-			(at 160.02 71.12 0)
+			(at 163.576 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,10 +6459,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c7f12a4-5a84-46e1-9a20-dc37c0719fca")
 		(property "Reference" "R27"
-			(at 165.1 53.34 90)
+			(at 165.1 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6469,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 165.1 55.88 90)
+			(at 165.1 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,10 +6598,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "352f49ed-220b-44c0-8799-5bdd0d038554")
 		(property "Reference" "R30"
-			(at 166.37 130.81 90)
+			(at 166.37 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6608,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 166.37 133.35 90)
+			(at 166.37 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33.1"
+		(property "Value" "33.2"
 			(at 105.41 144.7799 0)
 			(effects
 				(font
@@ -6799,7 +6968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "generic package:R 2512"
 			(at 102.87 143.51 0)
 			(effects
 				(font
@@ -6843,7 +7012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Mosfet_N_Channel")
+		(lib_id "cus_mosfet:IRF610PBF")
 		(at 100.33 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6861,7 +7030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "610"
+		(property "Value" "IRF610PBF"
 			(at 106.68 129.5399 0)
 			(effects
 				(font
@@ -6870,7 +7039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF610PBF"
+		(property "Footprint" "cus_mosfet:IRF610PBF"
 			(at 100.33 128.27 0)
 			(effects
 				(font
@@ -6888,7 +7057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N沟道"
+		(property "Description" "1个N沟道 耐压:200V 电流:3.3A"
 			(at 105.664 130.302 0)
 			(effects
 				(font
@@ -6917,8 +7086,8 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Zener_Diode")
-		(at 63.5 101.6 270)
+		(lib_id "cus_zener:1SMB5924BT3G")
+		(at 63.5 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6926,7 +7095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ddd013a-7b87-401e-8815-8fb6a2182cd9")
-		(property "Reference" "ZD1"
+		(property "Reference" "Z1"
 			(at 66.04 100.3299 90)
 			(effects
 				(font
@@ -6935,7 +7104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ZMY9V1-GS08"
+		(property "Value" "1SMB5924BT3G"
 			(at 66.04 102.8699 90)
 			(effects
 				(font
@@ -6944,31 +7113,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:ZMY9V1-GS08"
-			(at 63.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode"
-			(at 58.928 101.6 0)
+		(property "Footprint" "cus_zener:1SMB5924BT3G"
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMB 9.1V"
+			(at 67.564 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6981,7 +7151,7 @@
 		(instances
 			(project "PASS ALEPH P 1.7"
 				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
-					(reference "ZD1")
+					(reference "Z1")
 					(unit 1)
 				)
 			)
@@ -7066,10 +7236,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "651e2d12-5f50-48ad-afbe-a60b51f8019a")
 		(property "Reference" "C12"
-			(at 160.02 74.93 0)
+			(at 163.83 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7077,7 +7246,7 @@
 			)
 		)
 		(property "Value" "10UF"
-			(at 160.02 77.47 0)
+			(at 163.83 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +7439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Mosfet_N_Channel")
+		(lib_id "cus_mosfet:IRF610PBF")
 		(at 151.13 128.27 0)
 		(mirror y)
 		(unit 1)
@@ -7280,7 +7449,7 @@
 		(dnp no)
 		(uuid "6fbede05-a2f8-49d1-8a77-c87511708b9d")
 		(property "Reference" "Q8"
-			(at 144.78 129.5401 0)
+			(at 145.796 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,8 +7457,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "610"
-			(at 144.78 127.0001 0)
+		(property "Value" "IRF610PBF"
+			(at 145.796 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +7466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF610PBF"
+		(property "Footprint" "cus_mosfet:IRF610PBF"
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -7315,7 +7484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N沟道"
+		(property "Description" "1个N沟道 耐压:200V 电流:3.3A"
 			(at 145.796 130.302 0)
 			(effects
 				(font
@@ -7338,72 +7507,6 @@
 			(project "PASS ALEPH P 1.7"
 				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
 					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73979524-0c2e-4ca3-a6a9-ba3a0f8b5fba")
-		(property "Reference" "#PWR03"
-			(at 119.38 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52a2f9b2-68fe-45a5-8bee-11922b0661da")
-		)
-		(instances
-			(project "PASS ALEPH P 1.7"
-				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7505,6 +7608,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7554,10 +7658,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e9fc58b-644b-4694-880d-f34a58027ca0")
 		(property "Reference" "C4"
-			(at 91.44 68.58 0)
+			(at 94.996 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7668,7 @@
 			)
 		)
 		(property "Value" "10UF"
-			(at 91.44 71.12 0)
+			(at 94.996 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +7720,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 102.87 0)
+		(at 123.19 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7626,7 +7729,7 @@
 		(fields_autoplaced yes)
 		(uuid "915e2b17-903e-4307-8de9-f98d9334b953")
 		(property "Reference" "#PWR07"
-			(at 129.54 109.22 0)
+			(at 123.19 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,15 +7738,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 107.95 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 102.87 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 102.87 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 102.87 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7786,8 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:3线焊盘")
+		(lib_name "3线焊盘_1")
+		(lib_id "cus_connector:3线焊盘")
 		(at 83.82 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7888,7 +7993,83 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:2线焊盘")
+		(lib_name "BCP56-16,115_1")
+		(lib_id "cus_transistor:BCP56-16,115")
+		(at 71.12 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cceb9a8-93b1-42ea-a3bc-b986a6d8aca8")
+		(property "Reference" "Q11"
+			(at 64.516 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56-16,115"
+			(at 64.516 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cus_transistor:BCP56-16,115"
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-223"
+			(at 59.69 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "24c360da-1517-43c8-ade4-981f03bc8c63")
+		)
+		(pin "1"
+			(uuid "5aac384d-fdf6-46ea-8ea0-75677dc1f901")
+		)
+		(pin "2"
+			(uuid "38c5425d-49d6-4b34-a8ab-6d893f060fc9")
+		)
+		(instances
+			(project ""
+				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cus_connector:2线焊盘")
 		(at 27.94 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7956,7 +8137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Mosfet_N_Channel")
+		(lib_id "cus_mosfet:IRF610PBF")
 		(at 100.33 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7974,7 +8155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "610"
+		(property "Value" "IRF610PBF"
 			(at 106.68 105.4099 0)
 			(effects
 				(font
@@ -7983,7 +8164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF610PBF"
+		(property "Footprint" "cus_mosfet:IRF610PBF"
 			(at 100.33 104.14 0)
 			(effects
 				(font
@@ -8001,7 +8182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N沟道"
+		(property "Description" "1个N沟道 耐压:200V 电流:3.3A"
 			(at 105.664 106.172 0)
 			(effects
 				(font
@@ -8055,7 +8236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "generic package:R 2512"
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -8106,10 +8287,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ead1081-1fa9-414f-bc1c-1c88569f403b")
 		(property "Reference" "C13"
-			(at 160.02 82.55 0)
+			(at 163.576 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8297,7 @@
 			)
 		)
 		(property "Value" "10UF"
-			(at 160.02 85.09 0)
+			(at 163.576 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +8373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 205.74 76.2 0)
 			(effects
 				(font
@@ -8333,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_2512"
 			(at 125.73 116.84 0)
 			(effects
 				(font
@@ -8377,8 +8557,8 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Zener_Diode")
-		(at 186.69 102.87 270)
+		(lib_id "cus_zener:1SMB5924BT3G")
+		(at 186.69 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8386,7 +8566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6cf242f-0176-4673-b6c9-cb2085ed6b57")
-		(property "Reference" "ZD3"
+		(property "Reference" "Z3"
 			(at 189.23 101.5999 90)
 			(effects
 				(font
@@ -8395,7 +8575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ZMY9V1-GS08"
+		(property "Value" "1SMB5924BT3G"
 			(at 189.23 104.1399 90)
 			(effects
 				(font
@@ -8404,31 +8584,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:ZMY9V1-GS08"
-			(at 186.69 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode"
-			(at 182.118 102.87 0)
+		(property "Footprint" "cus_zener:1SMB5924BT3G"
+			(at 190.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMB 9.1V"
+			(at 190.754 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8441,7 +8622,7 @@
 		(instances
 			(project "PASS ALEPH P 1.7"
 				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
-					(reference "ZD3")
+					(reference "Z3")
 					(unit 1)
 				)
 			)
@@ -8455,10 +8636,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8100968-d29c-480b-a55e-514f9abe2268")
 		(property "Reference" "R25"
-			(at 163.83 91.44 90)
+			(at 164.084 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +8646,7 @@
 			)
 		)
 		(property "Value" "221K"
-			(at 163.83 93.98 90)
+			(at 164.084 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,8 +8766,8 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Zener_Diode")
-		(at 186.69 113.03 90)
+		(lib_id "cus_zener:1SMB5924BT3G")
+		(at 186.69 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8595,7 +8775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9e30764-280b-4793-874a-35235119c62c")
-		(property "Reference" "ZD4"
+		(property "Reference" "Z4"
 			(at 189.23 111.7599 90)
 			(effects
 				(font
@@ -8604,7 +8784,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ZMY9V1-GS08"
+		(property "Value" "1SMB5924BT3G"
 			(at 189.23 114.2999 90)
 			(effects
 				(font
@@ -8613,31 +8793,32 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3rd package:ZMY9V1-GS08"
-			(at 186.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode"
-			(at 191.262 113.03 0)
+		(property "Footprint" "cus_zener:1SMB5924BT3G"
+			(at 182.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMB 9.1V"
+			(at 182.626 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8650,15 +8831,15 @@
 		(instances
 			(project "PASS ALEPH P 1.7"
 				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
-					(reference "ZD4")
+					(reference "Z4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "generic components:Zener_Diode")
-		(at 63.5 111.76 90)
+		(lib_id "cus_zener:1SMB5924BT3G")
+		(at 63.5 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8666,7 +8847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac7c426-c038-485f-81f8-841f62301ecc")
-		(property "Reference" "ZD2"
+		(property "Reference" "Z2"
 			(at 66.04 110.4899 90)
 			(effects
 				(font
@@ -8675,7 +8856,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ZMY9V1-GS08"
+		(property "Value" "1SMB5924BT3G"
 			(at 66.04 113.0299 90)
 			(effects
 				(font
@@ -8684,31 +8865,32 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3rd package:ZMY9V1-GS08"
-			(at 63.5 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode"
-			(at 68.072 111.76 0)
+		(property "Footprint" "cus_zener:1SMB5924BT3G"
+			(at 59.69 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMB 9.1V"
+			(at 59.436 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8721,7 +8903,148 @@
 		(instances
 			(project "PASS ALEPH P 1.7"
 				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
-					(reference "ZD2")
+					(reference "Z2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cus_transistor:BCP56-16,115")
+		(at 182.88 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba7c6b6-3d50-46f4-9c2e-287c25604b03")
+		(property "Reference" "Q12"
+			(at 189.484 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP56-16,115"
+			(at 189.484 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cus_transistor:BCP56-16,115"
+			(at 204.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-223"
+			(at 194.31 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "31373923-129b-4aa2-9e12-020c2ae59931")
+		)
+		(pin "1"
+			(uuid "cb4889d1-1829-4ff5-92a7-90d14b386f6c")
+		)
+		(pin "2"
+			(uuid "c91b1763-5f9f-4b4b-b3aa-1f22902bcdd2")
+		)
+		(instances
+			(project "PASS ALEPH P 1.7"
+				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec257c7-1e00-480b-b5f4-77641f5d3cd7")
+		(property "Reference" "#FLG01"
+			(at 40.64 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe1b06f3-fa59-42c0-9f4e-c8e0335e5014")
+		)
+		(instances
+			(project ""
+				(path "/4eaf1a87-769b-4cd8-9c87-35d37ffb87a8"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8735,10 +9058,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3ee79ff-477c-4b44-8f50-1395d7266bf2")
 		(property "Reference" "R12"
-			(at 87.63 90.17 90)
+			(at 87.63 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +9068,7 @@
 			)
 		)
 		(property "Value" "221K"
-			(at 87.63 92.71 90)
+			(at 87.63 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,10 +9126,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7310f96-98b0-4279-aa2c-da410bd0d031")
 		(property "Reference" "R13"
-			(at 87.63 97.79 90)
+			(at 87.63 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +9136,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 87.63 100.33 90)
+			(at 87.63 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +9214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "generic package:R 2512"
 			(at 148.59 50.8 0)
 			(effects
 				(font
@@ -8937,7 +9258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Transistor_PNP")
+		(lib_id "cus_transistor:BCP53-16,115")
 		(at 73.66 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8964,33 +9285,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:BCX53-16,115"
-			(at 57.15 -35.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 -135.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PNP"
-			(at 69.85 57.912 0)
+		(property "Footprint" "cus_transistor:BCP53-16,115"
+			(at 52.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP SOT-223"
+			(at 62.992 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9020,10 +9340,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be27166f-f47d-4a01-b830-aab5610ddbb4")
 		(property "Reference" "C5"
-			(at 91.44 74.93 0)
+			(at 94.996 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9031,7 +9350,7 @@
 			)
 		)
 		(property "Value" "10UF"
-			(at 91.44 77.47 0)
+			(at 94.996 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,6 +9425,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9148,7 +9468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Mosfet_P_Channel")
+		(lib_id "cus_mosfet:IRF9610PBF")
 		(at 149.86 68.58 0)
 		(mirror y)
 		(unit 1)
@@ -9158,7 +9478,7 @@
 		(dnp no)
 		(uuid "c26e5274-d502-4e07-9abc-25e90c1118b3")
 		(property "Reference" "Q6"
-			(at 144.78 69.8501 0)
+			(at 145.796 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,8 +9486,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9610"
-			(at 144.78 67.3101 0)
+		(property "Value" "IRF9610PBF"
+			(at 145.796 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9175,7 +9495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF9610PBF"
+		(property "Footprint" "cus_mosfet:IRF9610PBF"
 			(at 149.86 68.58 0)
 			(effects
 				(font
@@ -9193,7 +9513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P沟道"
+		(property "Description" "1个P沟道 耐压:200V 电流:1.8A"
 			(at 145.796 70.612 0)
 			(effects
 				(font
@@ -9246,6 +9566,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9430,7 +9751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Mosfet_N_Channel")
+		(lib_id "cus_mosfet:IRF610PBF")
 		(at 151.13 106.68 0)
 		(mirror y)
 		(unit 1)
@@ -9440,7 +9761,7 @@
 		(dnp no)
 		(uuid "cc10b293-4e7e-4847-ad18-a3727dda7671")
 		(property "Reference" "Q7"
-			(at 144.78 107.9501 0)
+			(at 145.796 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,8 +9769,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "610"
-			(at 144.78 105.4101 0)
+		(property "Value" "IRF610PBF"
+			(at 145.796 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +9778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF610PBF"
+		(property "Footprint" "cus_mosfet:IRF610PBF"
 			(at 151.13 106.68 0)
 			(effects
 				(font
@@ -9475,7 +9796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N沟道"
+		(property "Description" "1个N沟道 耐压:200V 电流:3.3A"
 			(at 145.796 108.712 0)
 			(effects
 				(font
@@ -9599,6 +9920,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9737,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "cus_resistor:R_MELF_0207"
 			(at 139.7 116.84 0)
 			(effects
 				(font
@@ -9790,7 +10112,7 @@
 		(dnp no)
 		(uuid "e7c7ee74-3b16-4587-9b45-f951f122a8ed")
 		(property "Reference" "R26"
-			(at 163.83 99.06 90)
+			(at 163.83 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +10120,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 163.83 102.87 90)
+			(at 163.83 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,7 +10269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3rd package:MES104J2A-7-50R0"
+		(property "Footprint" "cus_capacitor:MES104J2A-7-50R0"
 			(at 142.24 28.2448 0)
 			(effects
 				(font
@@ -10018,7 +10340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "generic package:R 2512"
 			(at 102.87 50.8 0)
 			(effects
 				(font
@@ -10080,7 +10402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33.1"
+		(property "Value" "33.2"
 			(at 151.13 144.7799 0)
 			(effects
 				(font
@@ -10089,7 +10411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "generic package:R_1206"
+		(property "Footprint" "generic package:R 2512"
 			(at 148.59 143.51 0)
 			(effects
 				(font
@@ -10231,7 +10553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3rd package:MES104J2A-7-50R0"
+		(property "Footprint" "cus_capacitor:MES104J2A-7-50R0"
 			(at 118.11 28.2448 0)
 			(effects
 				(font
@@ -10275,7 +10597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "generic components:Mosfet_P_Channel")
+		(lib_id "cus_mosfet:IRF9610PBF")
 		(at 101.6 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10293,7 +10615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9610"
+		(property "Value" "IRF9610PBF"
 			(at 106.68 69.8499 0)
 			(effects
 				(font
@@ -10302,7 +10624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF9610PBF"
+		(property "Footprint" "cus_mosfet:IRF9610PBF"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -10320,7 +10642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P沟道"
+		(property "Description" "1个P沟道 耐压:200V 电流:1.8A"
 			(at 105.664 70.612 0)
 			(effects
 				(font
@@ -10425,10 +10747,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd15abd9-d386-4a7b-925a-0f552bf7cd45")
 		(property "Reference" "R11"
-			(at 86.36 130.81 90)
+			(at 86.36 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10757,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 86.36 133.35 90)
+			(at 86.36 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)

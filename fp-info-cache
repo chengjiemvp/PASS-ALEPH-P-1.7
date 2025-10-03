@@ -1,4 +1,4 @@
-26468435679706574
+26510774815328065
 3rd package
 1N4739ATR
 ZENER D 9.1V
@@ -56,48 +56,6 @@ Variable Resistor
 6
 6
 3rd package
-BC53PA,115
-PNP DFN
-
-0
-3
-3
-3rd package
-BC56PA-QX
-NPN DFN
-
-0
-3
-3
-3rd package
-BCP53-16,115
-PNP SOT-223
-Transistor
-0
-4
-3
-3rd package
-BCP56-16,115
-NPN SOT-223
-Integrated Circuit
-0
-4
-3
-3rd package
-BCX53-16,115
-SOT-89 PNP
-
-0
-3
-3
-3rd package
-BCX56-16,115
-SOT-89 NPN
-
-0
-3
-3
-3rd package
 CC1206JRNPOBBN220
 22PF 500V 1206
 Capacitor
@@ -146,41 +104,6 @@ HT1E108M1016PC
 0
 2
 2
-3rd package
-IRF540NPBF
-TO-220 N沟道 IRF540NPBF
-MOSFET (N-Channel)
-0
-3
-3
-3rd package
-IRF610PBF
-N沟道
-MOSFET (N-Channel)
-0
-3
-3
-3rd package
-IRF9540NPBF
-TO-220 P沟道 IRF9540NPBF
-
-0
-3
-3
-3rd package
-IRF9610PBF
-P沟道
-MOSFET (P-Channel)
-0
-3
-3
-3rd package
-IRFP240PBF
-N沟道
-MOSFET (N-Channel)
-0
-3
-3
 3rd package
 KBU1010
 
@@ -273,20 +196,6 @@ MES104J2A-7-50R0
 2
 2
 3rd package
-MJE15034G
-TO-220
-Transistor
-0
-3
-3
-3rd package
-MJE15035G
-TO-220
-Transistor
-0
-3
-3
-3rd package
 MKP20106J2EAC461625
 10UF 250V
 
@@ -357,13 +266,6 @@ Schottky Diode
 2
 2
 3rd package
-SS8050
-
-
-0
-3
-3
-3rd package
 STP45NF06
 N沟道 T0220
 MOSFET (N-Channel)
@@ -378,13 +280,6 @@ Capacitor Polarised
 2
 2
 3rd package
-TEST
-TO-220
-Integrated Circuit
-0
-3
-3
-3rd package
 UPC1237HA
 
 
@@ -398,13 +293,6 @@ ZMY9V1-GS08
 0
 2
 2
-3rd package
-ZTX450
-TO-92
-Transistor BJT NPN
-0
-3
-3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105266,6 +105154,13 @@ Varistor VF
 2
 2
 connectors
+1线焊盘
+
+
+0
+1
+1
+connectors
 2线焊盘
 
 
@@ -105293,79 +105188,170 @@ connectors
 0
 5
 5
-connectors
-SBR 4LINE
-
-
-0
-4
-4
 cus_capacitor
 50PX1000MEFC12.5X25
-1000μF 50V DIP
+DIP 1000UF 50V
 
 0
 2
 2
 cus_capacitor
 C3216X5R1E476MTJ00E
-47μF 25V SMD1206
+SMD1206 47UF 25V
+Capacitor
+0
+2
+2
+cus_capacitor
+CC3A681KC1GEB45F30MF
+680pF ±10% 1kV
+
+0
+2
+2
+cus_capacitor
+CC45SL3FD100JYNNA
+10pF ±5% 3kV
+
+0
+2
+2
+cus_capacitor
+CC1206JKNPOCBN100
+SMD1206 10PF 1KV
+Capacitor
+0
+2
+2
+cus_capacitor
+CC1206JKNPOCBN681
+SMD1206 680PF 1KV
 Capacitor
 0
 2
 2
 cus_capacitor
 CGA1206X5R226M350NT
-22μF 35V SMD1206
+SMD1206 22UF 35V
+Capacitor
+0
+2
+2
+cus_capacitor
+CGA1206X7R223K631NT
+SMD1206 22NF 630V
+Capacitor
+0
+2
+2
+cus_capacitor
+CGA1206X7R473K631NT
+SMD1206 47NF 630V
+Capacitor
+0
+2
+2
+cus_capacitor
+CL31A476MPHNNNE
+SMD1206 47UF 10V
+Capacitor
+0
+2
+2
+cus_capacitor
+CL31B104KCFNNNE
+SMD1206 100NF 100V
 Capacitor
 0
 2
 2
 cus_capacitor
 CL31B475KBHNNNE
-4.7μF 50V SMD1206
+SMD1206 4.7UF 50V
 Capacitor
 0
 2
 2
 cus_capacitor
+KP223J2J1001
+22nF ±5% 630V
+
+0
+2
+2
+cus_capacitor
 LSG050M109S353S1AA
-1WμF 50V
+DIP 1WUF 50V
+
+0
+2
+2
+cus_capacitor
+MES104J2A-7-50R0
+100nF ±5% 100V
+
+0
+2
+2
+cus_capacitor
+MPP473J2G10NN22610
+47nF ±5% 400V
 
 0
 2
 2
 cus_capacitor
 RVT470UF50V34RV0133
-470μF 50V SMD
+SMD 470UF 50V
 Capacitor Polarised
 0
 2
 2
 cus_capacitor
+SPZ1HM221G12O00RAXXX
+DIP 220UF 50V SOLID
+
+0
+2
+2
+cus_capacitor
+SPZ1HM471G18O00RAXXX
+DIP 470UF 50V SOLID
+
+0
+2
+2
+cus_capacitor
+UPW1H471MHD1TO
+DIP 470UF 50V
+
+0
+2
+2
+cus_capacitor
+UVY1H221MPD
+DIP 220UF 50V
+
+0
+2
+2
+cus_capacitor
 UWT1H221MNL1GS
-220μF 50V
+SMD 220UF 50V
 Capacitor Polarised
 0
 2
 2
 cus_capacitor
 VT1H102M1616
-SMD 1000μF 50V
+SMD 1000UF 50V
 capacitor electrolytic
 0
 2
 2
-cus_capacitor
-无标题
-
-
-0
-0
-0
 cus_inductor
 L_Ø‌‌38.5_W19.5_P15.8
-1MM 5A
+1MM 6A 3.8MH
 L_Toroid Vertical series Radial pin pitch 15.80mm  length 41.9mm width 19.1mm Vishay TJ7
 0
 2
@@ -105377,6 +105363,62 @@ L_Toroid Vertical series Radial pin pitch 15.80mm  length 41.9mm width 19.1mm Vi
 0
 2
 2
+cus_ldo
+78L10
+SOT-89
+
+0
+3
+3
+cus_ldo
+LM317AEMPX_NOPB
+SOT-223
+Integrated Circuit
+0
+4
+4
+cus_ldo
+LM337IMP_NOPB
+SOT-223
+Integrated Circuit
+0
+4
+4
+cus_mosfet
+IRF540NPBF
+TO-220 N沟道 IRF540NPBF
+MOSFET (N-Channel)
+0
+3
+3
+cus_mosfet
+IRF610PBF
+N沟道
+MOSFET (N-Channel)
+0
+3
+3
+cus_mosfet
+IRF9540NPBF
+TO-220 P沟道 IRF9540NPBF
+
+0
+3
+3
+cus_mosfet
+IRF9610PBF
+P沟道
+MOSFET (P-Channel)
+0
+3
+3
+cus_mosfet
+IRFP240PBF
+N沟道
+MOSFET (N-Channel)
+0
+3
+3
 cus_optocouple
 SFH6206-2T
 SMD-4, Option  9
@@ -105384,23 +105426,142 @@ Integrated Circuit
 0
 4
 4
+cus_resistor
+RSF5SSJT-73-150R
+金属膜电阻 150Ω ±5% 5W
+
+0
+2
+2
+cus_resistor
+RSF5SSJT-73-150R_Vertical
+金属膜电阻 150Ω ±5% 5W
+
+0
+2
+2
+cus_resistor
+SMW 5W 150R J
+SMW 5W 150R J
+
+0
+2
+2
+cus_resistor
+SMW3R47JT
+绕线电阻 470mΩ ±5% 3W
+
+0
+2
+2
+cus_resistor
+SMW51R0JT
+绕线电阻 1Ω ±5% 5W
+
+0
+2
+2
+cus_transistor
+BC53PA,115
+PNP DFN
+
+0
+3
+3
+cus_transistor
+BC56PA-QX
+NPN DFN
+
+0
+3
+3
+cus_transistor
+BCP53-16,115
+PNP SOT-223
+Transistor
+0
+4
+3
+cus_transistor
+BCP56-16,115
+NPN SOT-223
+Integrated Circuit
+0
+4
+3
+cus_transistor
+BCX53-16,115
+SOT-89 PNP
+
+0
+3
+3
+cus_transistor
+BCX56-16,115
+SOT-89 NPN
+
+0
+3
+3
+cus_transistor
+MJE15034G
+TO-220
+Transistor
+0
+3
+3
+cus_transistor
+MJE15035G
+TO-220
+Transistor
+0
+3
+3
+cus_transistor
+SS8050
+
+
+0
+3
+3
+cus_transistor
+ZTX450
+TO-92
+Transistor BJT NPN
+0
+3
+3
 cus_zener
 1SMA4744A
-zener 1W 15V SMA
+SMA 15V
+Zener Diode
+0
+2
+2
+cus_zener
+1SMB5924BT3G
+SMB 9.1V
 Zener Diode
 0
 2
 2
 cus_zener
 SMAZ9V1-13-F
-zener 1W 9.1V SMA
+SMA 9.1V
 Zener Diode
 0
 2
 2
 cus_zener
+SMC5352A
+耐压:15V
+Diode SMC (DO-214AB)
+0
+2
+2
+cus_zener
 ZMY9V1-GS08
-9.1V ZENER
+MELF 9.1V
 
 0
 2
@@ -105524,6 +105685,13 @@ LED
 0
 2
 2
+generic package
+LOGO
+
+
+0
+0
+0
 generic package
 MLCC_1206
 MLCC_1206
