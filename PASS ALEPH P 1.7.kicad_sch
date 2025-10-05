@@ -1998,22 +1998,34 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+						(xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
+						(xy -0.762 1.778) (xy -0.254 1.778)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.302) (xy -0.762 1.778) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2034,19 +2046,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 0.762) (xy 3.302 2.286) (xy 2.54 2.286) (xy 3.302 2.286) (xy 3.302 1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 3.048 0.762) (xy 4.572 2.286) (xy 3.81 2.286) (xy 4.572 2.286) (xy 4.572 1.524)
+						(xy 2.032 3.302) (xy 0.508 1.778) (xy 0.508 2.286) (xy 0.508 1.778) (xy 1.016 1.778)
 					)
 					(stroke
 						(width 0)
@@ -2061,7 +2073,7 @@
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2079,7 +2091,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2573,6 +2585,12 @@
 		(uuid "64276bb5-7f64-4937-a803-c67259088887")
 	)
 	(junction
+		(at 228.6 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6558b28f-3242-493a-afe6-69536f888efe")
+	)
+	(junction
 		(at 181.61 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2703,12 +2721,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b121577-ce5b-4482-a578-00ed963820a9")
-	)
-	(junction
-		(at 228.6 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fbb6fec-5bd2-4890-b97c-acdef03e8338")
 	)
 	(junction
 		(at 123.19 95.25)
@@ -3106,16 +3118,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 35.56) (xy 228.6 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a388910-f195-468f-ba24-aeb2e7ff8581")
-	)
-	(wire
-		(pts
 			(xy 114.3 45.72) (xy 114.3 48.26)
 		)
 		(stroke
@@ -3456,6 +3458,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 35.56) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4678259f-ab8e-4fb8-ba79-2c2e4bee8a4b")
+	)
+	(wire
+		(pts
 			(xy 91.44 104.14) (xy 95.25 104.14)
 		)
 		(stroke
@@ -3746,16 +3758,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 45.72) (xy 228.6 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d94221d-f50a-4489-9259-17f769b53691")
-	)
-	(wire
-		(pts
 			(xy 184.15 128.27) (xy 184.15 132.08)
 		)
 		(stroke
@@ -3886,6 +3888,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 46.99) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8139aaf3-1260-492d-a76e-8f94a6b47070")
+	)
+	(wire
+		(pts
 			(xy 50.8 96.52) (xy 63.5 96.52)
 		)
 		(stroke
@@ -3893,6 +3905,16 @@
 			(type default)
 		)
 		(uuid "81564aec-abea-4f21-a21c-425d25880da6")
+	)
+	(wire
+		(pts
+			(xy 228.6 35.56) (xy 232.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8251cd43-fc09-43b2-98f6-6605f3a21a30")
 	)
 	(wire
 		(pts
@@ -4023,16 +4045,6 @@
 			(type default)
 		)
 		(uuid "9b6370b0-f38d-49fe-81e7-cbc6533f9f60")
-	)
-	(wire
-		(pts
-			(xy 228.6 35.56) (xy 228.6 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd0155c-6a47-4af7-9c81-7972a92c0242")
 	)
 	(wire
 		(pts
@@ -4756,6 +4768,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 35.56) (xy 228.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19dad9b-c030-4968-a3be-bcef39f7111b")
+	)
+	(wire
+		(pts
 			(xy 92.71 179.07) (xy 99.06 179.07)
 		)
 		(stroke
@@ -4813,16 +4835,6 @@
 			(type default)
 		)
 		(uuid "f6899aa4-2063-4d4b-8a25-280b0a2a2137")
-	)
-	(wire
-		(pts
-			(xy 228.6 35.56) (xy 232.41 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f76264c2-a55d-497e-85f7-96cb907db020")
 	)
 	(wire
 		(pts
@@ -10809,7 +10821,7 @@
 	)
 	(symbol
 		(lib_id "generic components:LED")
-		(at 228.6 41.91 270)
+		(at 228.6 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10818,25 +10830,25 @@
 		(fields_autoplaced yes)
 		(uuid "ff1fbe60-1cc5-4ec4-ae99-3795a1d8bf2a")
 		(property "Reference" "D1"
-			(at 232.41 42.2274 90)
+			(at 232.41 42.8624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "NCD0603G1"
-			(at 232.41 44.7674 90)
+		(property "Value" "LED"
+			(at 232.41 45.4024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "generic package:LED"
-			(at 228.6 41.91 0)
+		(property "Footprint" "generic package:LED_1206"
+			(at 228.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +10857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 41.91 0)
+			(at 228.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +10866,7 @@
 			)
 		)
 		(property "Description" "5MM LED BLUE 20MA 3V"
-			(at 224.282 41.91 0)
+			(at 232.918 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
