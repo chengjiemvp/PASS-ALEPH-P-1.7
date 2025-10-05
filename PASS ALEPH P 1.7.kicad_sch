@@ -5869,7 +5869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3rd package:MMKP681K3A1001"
+		(property "Footprint" "cus_capacitor:B83C681JN1B0120090050EOY"
 			(at 191.77 82.2452 0)
 			(effects
 				(font
@@ -6838,7 +6838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3rd package:MMKP681K3A1001"
+		(property "Footprint" "cus_capacitor:B83C681JN1B0120090050EOY"
 			(at 199.39 49.8348 0)
 			(effects
 				(font
@@ -9648,7 +9648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3rd package:MMKP681K3A1001"
+		(property "Footprint" "cus_capacitor:B83C681JN1B0120090050EOY"
 			(at 53.34 51.1048 0)
 			(effects
 				(font
@@ -9719,7 +9719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3rd package:MMKP681K3A1001"
+		(property "Footprint" "cus_capacitor:B83C681JN1B0120090050EOY"
 			(at 63.5 81.5848 0)
 			(effects
 				(font
