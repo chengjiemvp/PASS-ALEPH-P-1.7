@@ -2,3 +2,4 @@ PASS\ ALEPH\ P\ 1.7-backups/
 bom/
 *.csv
 fp-info-cache
+*.lck
